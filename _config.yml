@@ -1,0 +1,21 @@
+# Site settings
+title: Inheritance in Ruby
+header-img: img/home-bg.png
+email: hafiz.bd2009@gmail.com
+copyright_name: hafizrahman1
+description: > # this means to ignore newlines until "baseurl:"
+  Class Inheritance
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  hafizrahman1
+learn_profile: hafizrahman1
+email_username: hafiz.bd2009@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
